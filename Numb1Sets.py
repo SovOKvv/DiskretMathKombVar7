@@ -33,7 +33,7 @@ def differ(s1, s2):
     return sorted(result)
 
 def minus(s1, s2):
-    # Разность множеств s1 \ s2
+    # Разность множеств
     result = []
     for i in s1:
         if i not in s2:

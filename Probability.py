@@ -21,6 +21,7 @@ def binomi(n, k):
         result = result * (n - i + 1) // i
     return result
 
+# Общие исходы
 totalout = binomi(N, K)
 
 # Благоприятные исходы
